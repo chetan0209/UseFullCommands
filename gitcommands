@@ -1,0 +1,15 @@
+Basic Code Checking and Checkout commands locally
+
+To checking code First use Below Commands 
+
+Enter UserName
+git config --global user.name "git user"
+Then Enter email
+git config -global user.email "abc@gmail.com"
+1 git clone url
+2 ls
+3 cd directory
+add Source Code 
+4: git add *
+5: git commit -m "message"
+6: git push
