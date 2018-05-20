@@ -10,3 +10,9 @@ md %CurrentDate%
 #set a=cd %CurrentDate%
 xcopy "D:\HSBC\windowsscript\*txt*" "%CurrentDate%" /d
 move "D:\HSBC\windowsscript\*txt*" "D:\HSBC\windowsscript\Archive\"
+
+
+
+TO use regex pattern use below
+
+xcopy "D:\HSBC\windowsscript\*chetan*.*" "%CurrentDate%" /d
