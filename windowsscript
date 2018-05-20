@@ -1,0 +1,12 @@
+for /F "tokens=1-4 delims=/ " %%A in ('date/t') do (
+set DateDay=%%A
+set DateMonth=%%B
+set DateYear=%%C
+set yearfoldername=%date:~-4%
+)
+cd D:\HSBC\windowsscript\output\
+set CurrentDate=D:\HSBC\windowsscript\output\%yearfoldername%\%DateMonth%-%DateYear%
+md %CurrentDate%
+#set a=cd %CurrentDate%
+xcopy "D:\HSBC\windowsscript\*txt*" "%CurrentDate%" /d
+move "D:\HSBC\windowsscript\*txt*" "D:\HSBC\windowsscript\Archive\"
