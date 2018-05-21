@@ -1,1 +1,2 @@
 # UseFullCommands
+Test class
