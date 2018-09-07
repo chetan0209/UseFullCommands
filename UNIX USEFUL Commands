@@ -1,1 +1,9 @@
 
+ls
+to check the logs use tail -f like below 
+tail -f /hsbc/ats/AMGAdapter/Logs/FileServiceAdapter.log : will print all frequent changes on consolse
+
+tail -100 /hsbc/ats/AMGAdapter/Logs/FileServiceAdapter.log 
+ 
+To Search paricular file :
+find ./ -name "filename"
