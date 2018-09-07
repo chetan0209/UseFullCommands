@@ -12,3 +12,7 @@ To find all perl (*.pl) files in current directory:
 $ find . -name '*.pl'
 
 The . represent the current directory and the -name option specifies all pl (perl) files. The quotes avoid the shell expansion and it is necessary when you want to use wild card based search (without quotes the shell would replace *.pl with the list of files in the current directory).
+
+To list only files and avoid all directories
+The following command will only list files and will exclude directories, special files, pipes, symbolic links etc:
+$ find . -type f -name '*.pl'
