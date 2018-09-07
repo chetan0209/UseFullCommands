@@ -16,3 +16,5 @@ The . represent the current directory and the -name option specifies all pl (per
 To list only files and avoid all directories
 The following command will only list files and will exclude directories, special files, pipes, symbolic links etc:
 $ find . -type f -name '*.pl'
+
+Use Ful URL for unix commands :https://www.cyberciti.biz/faq/howto-find-a-file-under-unix/
