@@ -18,3 +18,7 @@ The following command will only list files and will exclude directories, special
 $ find . -type f -name '*.pl'
 
 Use Ful URL for unix commands :https://www.cyberciti.biz/faq/howto-find-a-file-under-unix/
+
+
+SFTP useful commands url
+https://www.tecmint.com/sftp-command-examples/
