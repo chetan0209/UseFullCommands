@@ -7,3 +7,8 @@ tail -100 /hsbc/ats/AMGAdapter/Logs/FileServiceAdapter.log
  
 To Search paricular file :
 find ./ -name "filename"
+Examples – find command
+To find all perl (*.pl) files in current directory:
+$ find . -name '*.pl'
+
+The . represent the current directory and the -name option specifies all pl (perl) files. The quotes avoid the shell expansion and it is necessary when you want to use wild card based search (without quotes the shell would replace *.pl with the list of files in the current directory).
