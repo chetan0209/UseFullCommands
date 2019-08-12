@@ -1,0 +1,187 @@
+hey guys my name is vishwas and welcome
+to a brand new series on react for
+beginners in this series we will start
+from scratch and learned the different
+concepts in react in this introductory
+video I will briefly talk about what is
+react why should you learn react and
+also talk about the future content on
+react I will be creating on this channel
+we will also quickly go over the
+prerequisites to get started with react
+let's begin with what is react react is
+an open source JavaScript library for
+building user interfaces there are two
+key points in this definition the first
+one is that react is a JavaScript
+library it is not a framework it is
+library it is focused on doing one thing
+and doing that one thing really well and
+that is the second part building user
+interfaces so react does not focus on
+the other aspects of your application
+like routing or HTTP requests it is
+responsible only for building rich user
+interfaces now if that raises a concern
+as to how you would handle routing HTTP
+and other functionality you don't have
+to worry about it react has a rich
+ecosystem and plays really well with
+other libraries and is more than capable
+of building full-fledged web
+applications alright now that we know
+what react is and for what purpose it is
+used let's see why you might want to
+learn react let's start with the fact
+that react is a project created and
+maintained by Facebook when a company
+like Facebook uses to react in its own
+products and invests money and resources
+to keep the project alive you can be
+rest assured it is not going to die down
+anytime soon as of this recording it
+more than a hundred thousand stars on
+github and a huge community behind it
+this means to say you will be able to
+find tons of articles and Stack Overflow
+solutions to most of the problems that
+you will encounter when getting started
+with react also if you read through
+Stack Overflow developer survey every
+year you will quickly find out that
+react has become increasingly popular
+among developers and is also one of the
+most sought out skill sets by companies
+right now learn react and you have a
+great chance of landing that front-end
+developer job you've always wanted now
+let me touch slightly on the technical
+aspects of react and why it is a good
+choice react has a component based
+architecture this lets you break down
+your application into small encapsulated
+parts which can then be composed to make
+more complex UIs for example a
+traditional website can be broken down
+into header side nav main content and
+footer each section represents a
+component which when composed in the
+right way make up the entire website
+components also make it possible to
+write reusable code for example you
+could have the component for an article
+on react the same component can be
+reused for articles on angular or view
+by simply passing the right data into
+the article component for enterprise
+applications the ability to reuse code
+is a huge plus point another key point
+is that react is declarative now what
+does that mean well basically we just
+have to tell react what we want and
+react with its react Dom library will
+build the actual UI this is the
+declarative paradigm now this is in
+contrast with the imperative paradigm we
+are usually used to
+which implements algorithms in explicit
+steps let me give you a relatable
+example let's say you go to an artist
+you ask them to draw a landscape you
+don't tell them how to draw it it's up
+to them
+this is declarative you tell what has to
+be done and the artist will get it done
+for you now the same task you ask off a
+five-year-old child but this time you
+tell them to first draw the mountains
+then the river then the trees and so on
+you explicitly specify each step and you
+control the flow of the landscape that
+is imperative paradigm why this is
+important to understand is because react
+is declarative you have to tell react
+what the UI should look like and react
+will create the actual UI react will
+make it painless for you to create
+complex UI s by abstracting away the
+difficult parts react will handle
+efficiently updating and rendering just
+the right components in your application
+when your data changes Dom updates which
+is one of the more expensive operations
+is handled gracefully in react now react
+also makes no assumptions about the rest
+of the technology stack you are using
+for your project you can seamlessly
+integrate react into any of your
+applications be it just a portion of the
+page or a complete page or even an
+entire application itself react will fit
+right in and once you have a good grasp
+on react you can also enter the world of
+mobile applications with react native
+the bottom line is that react will be a
+great addition to your skill set now
+then what are the prerequisites to get
+started with react HTML CSS and
+JavaScript fundamentals are absolutely
+necessary
+for this course I will also be making
+use of es so a knowledge of modern
+JavaScript is also essential you don't
+have to be an expert by any means but
+there are a few features that make it so
+much easier to write rewrite code and
+that is why I recommend learning react
+with es to help you out I've made a
+list of some of the JavaScript and es
+concepts that you should be aware of
+with JavaScript make sure you're aware
+of this keyword filter map and reduce
+methods mainly the map method with es
+please go through let and const
+declarations arrow functions template
+literals default parameters object
+literals rest and spread operators and
+finally the structuring assignment i
+have a complete tutorial series on es
+on all these topics so please feel free
+to go through them and then continue
+with react it will only take you an hour
+or so let me tell you that no prior
+knowledge of any other JavaScript
+libraries or frameworks is necessary we
+will be learning react from scratch let
+me also share my plant on the content I
+will be creating for react so that you
+will know what to expect in the coming
+future we will start off with react
+fundamentals after that we will take a
+look at react and HTTP that is followed
+by routing with react and then we have
+state management with redux finally we
+will take a look at some useful
+utilities or libraries that will work
+well with react one thing I do have to
+mention here is that react just like any
+other framework is also going to undergo
+breaking changes as of this recording we
+will be using react version  dot .
+if you're watching this series and year
+or so from now
+the
+major version might be different but be
+rest assured % of the content will
+remain valid for the breaking changes I
+will make sure to pin a comment in the
+particular video and also create an
+updated video for your reference my goal
+is to make sure we all advance from a
+complete beginner to being an expert in
+react all right then with this
+introduction let's get started with a
+simple hello world application in the
+next video thank you guys for watching
+don't forget subscribe and I'll see you
+guys in the next one
