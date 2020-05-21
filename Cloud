@@ -2,3 +2,5 @@ Puppet VS CHEF VS ANSIBLE.
 IAAS VS PAAS VS SAAS.
 DOCKER
 Monolotic vs Microservices.
+
+PCF : cf push
